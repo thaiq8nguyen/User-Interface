@@ -64,3 +64,100 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	width: 800px;
+	margin: 0 auto;
+}
+.top-navigation {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.top-navigation nav {
+	display: inline-block;
+	margin-right: 20px;
+	padding: 10px 10px;
+	background-color: black;	
+}
+.top-navigation nav img {
+	display: inline-block;
+}
+.top-navigation nav li {
+	display: inline;
+	padding-right: 30px;
+}
+
+.top-navigation nav li a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	
+}
+
+.intro {
+	margin: 50px 0;
+}
+.intro > *{
+	vertical-align: middle;
+}
+
+.banner-container {
+	display: inline-block;
+	text-align: center;
+	width: 48%;
+	padding: 25px;
+}
+.banner-container h1 {
+	font-size: 85px;
+}
+.banner-container button {
+	border: 1px solid dimgray;
+	font-size: 24px;
+	padding: 5px 40px;
+	color: dimgray;
+}
+.code-snippet-image-container {
+	display: inline-block;
+	width: 48%;
+	padding: 25px;
+}
+.content {
+	margin: 35px 0;
+}
+.section-paragraph {
+	font-size:18px;
+}
+.features {
+	display: inline-block;
+	width: 48%;
+}
+.about {
+	display: inline-block;
+	width: 48%;
+}
+.content img {
+	margin: 35px 0;
+}
+.services {
+	display: inline-block;
+	width: 32%;
+}
+.products {
+	display: inline-block;
+	width: 32%;
+}
+.vision {
+	display: inline-block;
+	width: 32%;
+}
+.contact {
+	margin: 35px 0;
+}
+.contact address {
+	font-size: 18px;
+	width: 30%;
+}
+.copyright {
+	text-align: center;
+}
+
